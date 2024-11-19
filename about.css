@@ -1,0 +1,37 @@
+.ach{
+    margin-top: 2rem;
+}
+.container-ach{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+.ach-left{
+    margin: 1.6rem 0 2.5rem;
+}
+.ach-cards{
+    display: grid;
+    grid-template-columns: repeat(2,lfr);
+    gap: 1rem;
+    size: 3rem;
+
+    
+}
+.ach-card{
+    background: rgb(98, 103, 103);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+.ach-card:hover{
+    background: rgb(37, 35, 37);
+    box-shadow: 0 3rem 3rem rgb(0,0,0,0.3);
+}
+.ach-icon{
+    background: rgb(145, 72, 72);
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    display: inline-block;
+    font-size: 1.5rem;
+}
